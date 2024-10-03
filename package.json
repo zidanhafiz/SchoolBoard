@@ -1,5 +1,5 @@
 {
-  "name": "lama-dev-next-dashboard",
+  "name": "SchoolBoard",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -22,5 +22,6 @@
     "tailwindcss": "^3.4.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.5"
-  }
+  },
+  "swpm": "pnpm"
 }
