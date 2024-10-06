@@ -146,7 +146,7 @@ const Menu = () => {
             <Link
               href={item.href}
               key={item.label}
-              className="flex items-center gap-2 text-sm text-gray-500 py-2 px-2 my-1 transition hover:bg-primary hover:text-primary-foreground rounded-lg"
+              className="flex items-center gap-2 text-sm text-gray-500 py-2 px-2 my-1 justify-center lg:justify-start transition hover:bg-primary hover:text-primary-foreground rounded-md"
             >
               {item.icon}
               <span className="hidden lg:block">{item.label}</span>
